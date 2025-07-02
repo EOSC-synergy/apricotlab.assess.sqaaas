@@ -1,0 +1,78 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/grycap/apricotlab:
+      branch: main
+      repo: https://github.com/grycap/apricotlab/
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/grycap/apricotlab git:
+        commands:
+        - /usr/bin/env sh .sqa/script.pasty-cornflower-angelfish.sh
+        container: qc.acc_cheeky-cardinal-bandicoot
+  QC.Doc:
+    repos:
+      github.com/grycap/apricotlab find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.greasy-wheat-whale.sh
+        container: qc.doc_sleepy-bistre-caiman
+      github.com/grycap/apricotlab git:
+        commands:
+        - /usr/bin/env sh .sqa/script.scummy-buff-nightingale.sh
+        container: qc.doc_paltry-tangerine-sheepdog
+      github.com/grycap/apricotlab markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.skinny-white-lion.sh
+        container: qc.doc_stealthy-apricot-catfish
+  QC.Lic:
+    repos:
+      github.com/grycap/apricotlab licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.crappy-buff-dodo.sh
+        container: qc.lic_cozy-tomato-whale
+  QC.Met:
+    repos:
+      github.com/grycap/apricotlab validate_codemeta:
+        commands:
+        - /usr/bin/env sh .sqa/script.wimpy-tan-squirt.sh
+        container: qc.met_whiny-copper-cuscus
+  QC.Sec:
+    repos:
+      github.com/grycap/apricotlab bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.slimy-tangerine-capybara.sh
+        container: qc.sec_blurry-cinnamon-caiman
+  QC.Sty:
+    repos:
+      github.com/grycap/apricotlab flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.smelly-rust-emu.sh
+        container: qc.sty_sunny-aquamarine-gorilla
+      github.com/grycap/apricotlab hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.nippy-chestnut-weasel.sh
+        container: qc.sty_wheezy-platinum-chinook
+      github.com/grycap/apricotlab jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.flimsy-linen-tarantula.sh
+        container: qc.sty_snazzy-eggplant-ferret
+  QC.Uni:
+    repos:
+      github.com/grycap/apricotlab pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.scanty-eggplant-rhinoceros.sh
+        container: qc.uni_blurry-auburn-ladybird
+  QC.Ver:
+    repos:
+      github.com/grycap/apricotlab get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.flimsy-periwinkle-coral.sh
+        container: qc.ver_clammy-red-wombat
+timeout: 5400
