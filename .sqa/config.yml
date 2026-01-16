@@ -6,7 +6,7 @@ config:
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/grycap/apricotlab:
       branch: main
-      repo: https://github.com/grycap/apricotlab/
+      repo: https://github.com/grycap/apricotlab
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
@@ -15,64 +15,64 @@ sqa_criteria:
     repos:
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-myrtle-booby.sh
-        container: qc.acc_pokey-ecru-buffalo
+        - /usr/bin/env sh .sqa/script.flimsy-khaki-horse.sh
+        container: qc.acc_hasty-olive-forest
   QC.Doc:
     repos:
       github.com/grycap/apricotlab find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-platinum-tang.sh
-        container: qc.doc_gimpy-cinnabar-crab
+        - /usr/bin/env sh .sqa/script.cloudy-charcoal-goat.sh
+        container: qc.doc_homely-sepia-paradise
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-celadon-loon.sh
-        container: qc.doc_gloppy-bronze-tuatara
+        - /usr/bin/env sh .sqa/script.beady-asparagus-clam.sh
+        container: qc.doc_sleepy-ultramarine-caracal
       github.com/grycap/apricotlab markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-cobalt-rat.sh
-        container: qc.doc_grumpy-linen-bullfrog
+        - /usr/bin/env sh .sqa/script.crappy-pink-cougar.sh
+        container: qc.doc_scaly-mustard-jackal
   QC.Lic:
     repos:
       github.com/grycap/apricotlab licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-black-swan.sh
-        container: qc.lic_paltry-green-seahorse
+        - /usr/bin/env sh .sqa/script.grumpy-amaranth-dog.sh
+        container: qc.lic_leaky-silver-mandrill
   QC.Met:
     repos:
       github.com/grycap/apricotlab validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-cyan-eel.sh
-        container: qc.met_flabby-chartreuse-butterfly
+        - /usr/bin/env sh .sqa/script.clammy-cerise-dragonfly.sh
+        container: qc.met_homey-linen-vulture
   QC.Sec:
     repos:
       github.com/grycap/apricotlab bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-brass-lobster.sh
-        container: qc.sec_crappy-xanthic-frog
+        - /usr/bin/env sh .sqa/script.gimpy-heliotrope-frog.sh
+        container: qc.sec_beady-myrtle-shrimp
   QC.Sty:
     repos:
       github.com/grycap/apricotlab flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-orange-burmese.sh
-        container: qc.sty_crappy-cerulean-woodlouse
+        - /usr/bin/env sh .sqa/script.nerdy-olivine-termite.sh
+        container: qc.sty_muggy-flax-panda
       github.com/grycap/apricotlab hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-gamboge-greyhound.sh
-        container: qc.sty_paltry-razzmatazz-coyote
+        - /usr/bin/env sh .sqa/script.snippy-carmine-lynx.sh
+        container: qc.sty_skanky-gold-terrier
       github.com/grycap/apricotlab jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-turquoise-spider.sh
-        container: qc.sty_woozy-brass-collie
+        - /usr/bin/env sh .sqa/script.bluesy-brown-cheetah.sh
+        container: qc.sty_stinky-bronze-bongo
   QC.Uni:
     repos:
       github.com/grycap/apricotlab pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-goldenrod-flounder.sh
-        container: qc.uni_scaly-smalt-fly
+        - /usr/bin/env sh .sqa/script.crappy-fuchsia-uakari.sh
+        container: qc.uni_cozy-indigo-albatross
   QC.Ver:
     repos:
       github.com/grycap/apricotlab get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-platinum-butterfly.sh
-        container: qc.ver_freaky-xanthic-mayfly
+        - /usr/bin/env sh .sqa/script.cloudy-pear-salamander.sh
+        container: qc.ver_blurry-russet-slug
 timeout: 5400
