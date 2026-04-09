@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-chocolate-sheep.sh
-        container: qc.acc_droopy-khaki-burmese
+        - /usr/bin/env sh .sqa/script.snazzy-indigo-duck.sh
+        container: qc.acc_frumpy-green-butterfly
   QC.Doc:
     repos:
       github.com/grycap/apricotlab find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-amethyst-beaver.sh
-        container: qc.doc_surly-crimson-zonkey
+        - /usr/bin/env sh .sqa/script.muzzy-lilac-llama.sh
+        container: qc.doc_leaky-celadon-barnacle
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-rose-jackal.sh
-        container: qc.doc_beady-ivory-lemming
+        - /usr/bin/env sh .sqa/script.stuffy-yellow-stingray.sh
+        container: qc.doc_foggy-olivine-cassowary
       github.com/grycap/apricotlab markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-amethyst-scorpion.sh
-        container: qc.doc_pasty-flax-chimpanzee
+        - /usr/bin/env sh .sqa/script.leaky-champagne-snail.sh
+        container: qc.doc_wiggy-bistre-newt
   QC.Lic:
     repos:
       github.com/grycap/apricotlab licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-silver-lynx.sh
-        container: qc.lic_silly-ultramarine-peccary
+        - /usr/bin/env sh .sqa/script.foggy-ecru-chinchilla.sh
+        container: qc.lic_lumpy-green-argentino
   QC.Met:
     repos:
       github.com/grycap/apricotlab validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-chocolate-snail.sh
-        container: qc.met_clammy-pear-wolf
+        - /usr/bin/env sh .sqa/script.wimpy-denim-antelope.sh
+        container: qc.met_pretty-corn-lobster
   QC.Sec:
     repos:
       github.com/grycap/apricotlab bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-saffron-fossa.sh
-        container: qc.sec_skanky-green-shrimp
+        - /usr/bin/env sh .sqa/script.hilly-aqua-butterfly.sh
+        container: qc.sec_cheeky-aqua-camel
   QC.Sty:
     repos:
       github.com/grycap/apricotlab flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-ultramarine-ibis.sh
-        container: qc.sty_randy-lavender-squirt
+        - /usr/bin/env sh .sqa/script.snazzy-pumpkin-jackal.sh
+        container: qc.sty_skinny-green-dolphin
       github.com/grycap/apricotlab hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-cornflower-rattlesnake.sh
-        container: qc.sty_chummy-wisteria-akita
+        - /usr/bin/env sh .sqa/script.pretty-ivory-tang.sh
+        container: qc.sty_bumpy-crimson-swan
       github.com/grycap/apricotlab jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-platinum-burmese.sh
-        container: qc.sty_stuffy-chestnut-seal
+        - /usr/bin/env sh .sqa/script.slimy-carmine-eleuth.sh
+        container: qc.sty_woolly-lime-uguisu
       github.com/grycap/apricotlab pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-pink-eel.sh
-        container: qc.sty_ugly-white-numbat
+        - /usr/bin/env sh .sqa/script.wiggy-persimmon-mouse.sh
+        container: qc.sty_jumpy-cardinal-bombay
   QC.Uni:
     repos:
       github.com/grycap/apricotlab pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-ultramarine-rabbit.sh
-        container: qc.uni_tacky-amber-cuttlefish
+        - /usr/bin/env sh .sqa/script.breezy-magnolia-mammoth.sh
+        container: qc.uni_trippy-peach-dane
   QC.Ver:
     repos:
       github.com/grycap/apricotlab get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-white-quail.sh
-        container: qc.ver_whiny-myrtle-tapir
+        - /usr/bin/env sh .sqa/script.chummy-mustard-sheep.sh
+        container: qc.ver_frumpy-amaranth-uakari
 timeout: 5400
