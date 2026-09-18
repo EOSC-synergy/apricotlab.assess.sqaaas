@@ -6,7 +6,7 @@ config:
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/grycap/apricotlab:
       branch: main
-      repo: https://github.com/grycap/apricotlab
+      repo: https://github.com/grycap/apricotlab/
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluebell_polite_grasshopper.sh
-        container: qc.acc_fog_friendly_fox
+        - /usr/bin/env sh .sqa/script.ebony_spirited_gull.sh
+        container: qc.acc_pumpkin_outgoing_mink
   QC.Doc:
     repos:
       github.com/grycap/apricotlab find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crimson_rugged_swan.sh
-        container: qc.doc_mauve_content_gorilla
+        - /usr/bin/env sh .sqa/script.scarlet_sincere_angelfish.sh
+        container: qc.doc_copper_blissful_crocodile
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.fuchsia_zany_boa.sh
-        container: qc.doc_vermilion_honest_viper
+        - /usr/bin/env sh .sqa/script.byzantium_supportive_eagle.sh
+        container: qc.doc_ochre_patient_moose
       github.com/grycap/apricotlab markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.rosewater_organized_rhinoceros.sh
-        container: qc.doc_forest_graceful_flamingo
+        - /usr/bin/env sh .sqa/script.pearl_spontaneous_seal.sh
+        container: qc.doc_celadon_delighted_lemur
   QC.Lic:
     repos:
       github.com/grycap/apricotlab licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.mint_lucky_spren.sh
-        container: qc.lic_vermilion_clever_salamander
+        - /usr/bin/env sh .sqa/script.pearl_imaginative_seal.sh
+        container: qc.lic_wine_shy_lynx
   QC.Met:
     repos:
       github.com/grycap/apricotlab validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.isabelline_playful_caiman.sh
-        container: qc.met_tide_generous_impala
+        - /usr/bin/env sh .sqa/script.gray_lively_mandrill.sh
+        container: qc.met_pink_happy_horse
   QC.Sec:
     repos:
       github.com/grycap/apricotlab bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.brown_imaginative_quoll.sh
-        container: qc.sec_daffodil_mischievous_emu
+        - /usr/bin/env sh .sqa/script.echelon_fair_raccoon.sh
+        container: qc.sec_pumpkin_rustic_antelope
   QC.Sty:
     repos:
       github.com/grycap/apricotlab flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.persimmon_calm_crane.sh
-        container: qc.sty_gamboge_attentive_iguana
+        - /usr/bin/env sh .sqa/script.mist_nervous_rhinoceros.sh
+        container: qc.sty_lagoon_brilliant_frog
       github.com/grycap/apricotlab hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.cloud_dreamy_komodo.sh
-        container: qc.sty_cinnabar_practical_condor
+        - /usr/bin/env sh .sqa/script.walnut_dizzy_roadrunner.sh
+        container: qc.sty_reef_jubilant_manatee
       github.com/grycap/apricotlab jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sand_impulsive_flounder.sh
-        container: qc.sty_claret_practical_dolphin
+        - /usr/bin/env sh .sqa/script.tide_cautious_hornbill.sh
+        container: qc.sty_wisteria_quirky_boa
       github.com/grycap/apricotlab pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.linen_playful_jellyfish.sh
-        container: qc.sty_gunmetal_trustworthy_sloth
+        - /usr/bin/env sh .sqa/script.avocado_stubborn_cougar.sh
+        container: qc.sty_plum_quirky_python
   QC.Uni:
     repos:
       github.com/grycap/apricotlab pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.green_proactive_cobra.sh
-        container: qc.uni_denim_fearless_ocelot
+        - /usr/bin/env sh .sqa/script.powder_tranquil_otter.sh
+        container: qc.uni_orange_ambitious_kookaburra
   QC.Ver:
     repos:
       github.com/grycap/apricotlab get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ash_aware_coyote.sh
-        container: qc.ver_purple_dramatic_salamander
+        - /usr/bin/env sh .sqa/script.coral_dizzy_gibbon.sh
+        container: qc.ver_navy_blissful_parrot
 timeout: 5400
