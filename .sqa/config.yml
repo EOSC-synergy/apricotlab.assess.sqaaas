@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.khaki_worried_giraffe.sh
-        container: qc.acc_daffodil_diplomatic_baboon
+        - /usr/bin/env sh .sqa/script.vermilion_fierce_clownfish.sh
+        container: qc.acc_cinnamon_open_spren
   QC.Doc:
     repos:
       github.com/grycap/apricotlab find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cardamom_lively_hamster.sh
-        container: qc.doc_chestnut_graceful_snail
+        - /usr/bin/env sh .sqa/script.mauve_radiant_lionfish.sh
+        container: qc.doc_snow_realistic_reindeer
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.denim_dedicated_ibis.sh
-        container: qc.doc_navy_productive_marmoset
+        - /usr/bin/env sh .sqa/script.cosmos_organized_chinchilla.sh
+        container: qc.doc_rosewater_jubilant_cormorant
       github.com/grycap/apricotlab markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cherry_whimsical_unicorn.sh
-        container: qc.doc_flamingo_stubborn_fox
+        - /usr/bin/env sh .sqa/script.saffron_grumpy_frog.sh
+        container: qc.doc_sunset_foolish_crane
   QC.Lic:
     repos:
       github.com/grycap/apricotlab licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.iris_energetic_hyena.sh
-        container: qc.lic_wine_lucky_finch
+        - /usr/bin/env sh .sqa/script.sepia_vigilant_tortoise.sh
+        container: qc.lic_mint_mischievous_llama
   QC.Met:
     repos:
       github.com/grycap/apricotlab validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.copper_impulsive_cougar.sh
-        container: qc.met_lime_apprehensive_cheetah
+        - /usr/bin/env sh .sqa/script.moss_driven_turtle.sh
+        container: qc.met_mahogany_studious_kingfisher
   QC.Sec:
     repos:
       github.com/grycap/apricotlab bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.azure_lively_wolf.sh
-        container: qc.sec_lapis_gracious_panther
+        - /usr/bin/env sh .sqa/script.peony_optimistic_antelope.sh
+        container: qc.sec_chartreuse_inspired_bear
   QC.Sty:
     repos:
       github.com/grycap/apricotlab flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.watermelon_spontaneous_whale.sh
-        container: qc.sty_sepia_rugged_pangolin
+        - /usr/bin/env sh .sqa/script.scarlet_positive_hedgehog.sh
+        container: qc.sty_aqua_blissful_raven
       github.com/grycap/apricotlab hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.royal_frugal_ocelot.sh
-        container: qc.sty_sienna_proud_llama
+        - /usr/bin/env sh .sqa/script.clove_respectful_kingfisher.sh
+        container: qc.sty_echelon_wondrous_otter
       github.com/grycap/apricotlab jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ice_cautious_stork.sh
-        container: qc.sty_cadet_helpful_manatee
+        - /usr/bin/env sh .sqa/script.maroon_courageous_sparrow.sh
+        container: qc.sty_raspberry_reserved_manta
       github.com/grycap/apricotlab pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gunmetal_foolish_flamingo.sh
-        container: qc.sty_cinnamon_attentive_pegasus
+        - /usr/bin/env sh .sqa/script.amethyst_protective_angelfish.sh
+        container: qc.sty_flax_whimsical_dragonfly
   QC.Uni:
     repos:
       github.com/grycap/apricotlab pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.tangerine_studious_clownfish.sh
-        container: qc.uni_wisteria_loyal_coyote
+        - /usr/bin/env sh .sqa/script.clementine_intuitive_parrot.sh
+        container: qc.uni_obsidian_honest_dormouse
   QC.Ver:
     repos:
       github.com/grycap/apricotlab get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cinnamon_reserved_macaw.sh
-        container: qc.ver_lemon_responsible_macaw
+        - /usr/bin/env sh .sqa/script.currant_mysterious_reindeer.sh
+        container: qc.ver_harlequin_zealous_falcon
 timeout: 5400
