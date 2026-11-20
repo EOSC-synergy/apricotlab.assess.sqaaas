@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.magenta_motivated_thrush.sh
-        container: qc.acc_ochre_friendly_wombat
+        - /usr/bin/env sh .sqa/script.khaki_worried_giraffe.sh
+        container: qc.acc_daffodil_diplomatic_baboon
   QC.Doc:
     repos:
       github.com/grycap/apricotlab find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.aqua_meticulous_cheetah.sh
-        container: qc.doc_umber_hopeful_tortoise
+        - /usr/bin/env sh .sqa/script.cardamom_lively_hamster.sh
+        container: qc.doc_chestnut_graceful_snail
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.cinnabar_forgiving_griffin.sh
-        container: qc.doc_mist_innocent_meerkat
+        - /usr/bin/env sh .sqa/script.denim_dedicated_ibis.sh
+        container: qc.doc_navy_productive_marmoset
       github.com/grycap/apricotlab markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cayenne_polite_panther.sh
-        container: qc.doc_tundra_visionary_butterfly
+        - /usr/bin/env sh .sqa/script.cherry_whimsical_unicorn.sh
+        container: qc.doc_flamingo_stubborn_fox
   QC.Lic:
     repos:
       github.com/grycap/apricotlab licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ultramarine_sad_llama.sh
-        container: qc.lic_scarlet_rugged_armadillo
+        - /usr/bin/env sh .sqa/script.iris_energetic_hyena.sh
+        container: qc.lic_wine_lucky_finch
   QC.Met:
     repos:
       github.com/grycap/apricotlab validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.thistle_creative_dragon.sh
-        container: qc.met_currant_methodical_bison
+        - /usr/bin/env sh .sqa/script.copper_impulsive_cougar.sh
+        container: qc.met_lime_apprehensive_cheetah
   QC.Sec:
     repos:
       github.com/grycap/apricotlab bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.yellow_inspired_newt.sh
-        container: qc.sec_sienna_spontaneous_chimpanzee
+        - /usr/bin/env sh .sqa/script.azure_lively_wolf.sh
+        container: qc.sec_lapis_gracious_panther
   QC.Sty:
     repos:
       github.com/grycap/apricotlab flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.purple_ardent_eagle.sh
-        container: qc.sty_royal_agile_ferret
+        - /usr/bin/env sh .sqa/script.watermelon_spontaneous_whale.sh
+        container: qc.sty_sepia_rugged_pangolin
       github.com/grycap/apricotlab hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.caramel_sarcastic_nymph.sh
-        container: qc.sty_brown_innocent_eagle
+        - /usr/bin/env sh .sqa/script.royal_frugal_ocelot.sh
+        container: qc.sty_sienna_proud_llama
       github.com/grycap/apricotlab jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pumpkin_thankful_orca.sh
-        container: qc.sty_walnut_focused_hydra
+        - /usr/bin/env sh .sqa/script.ice_cautious_stork.sh
+        container: qc.sty_cadet_helpful_manatee
       github.com/grycap/apricotlab pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.powder_bright_cassowary.sh
-        container: qc.sty_espresso_content_armadillo
+        - /usr/bin/env sh .sqa/script.gunmetal_foolish_flamingo.sh
+        container: qc.sty_cinnamon_attentive_pegasus
   QC.Uni:
     repos:
       github.com/grycap/apricotlab pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.snow_serene_emu.sh
-        container: qc.uni_jade_loyal_swan
+        - /usr/bin/env sh .sqa/script.tangerine_studious_clownfish.sh
+        container: qc.uni_wisteria_loyal_coyote
   QC.Ver:
     repos:
       github.com/grycap/apricotlab get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.prussian_philosophical_caiman.sh
-        container: qc.ver_cornflower_wise_leopard
+        - /usr/bin/env sh .sqa/script.cinnamon_reserved_macaw.sh
+        container: qc.ver_lemon_responsible_macaw
 timeout: 5400
