@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.glacier_polite_alpaca.sh
-        container: qc.acc_claret_creative_tapir
+        - /usr/bin/env sh .sqa/script.hunter_smart_walrus.sh
+        container: qc.acc_prussian_eccentric_buffalo
   QC.Doc:
     repos:
       github.com/grycap/apricotlab find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.amaranth_loyal_crocodile.sh
-        container: qc.doc_walnut_empathetic_elephant
+        - /usr/bin/env sh .sqa/script.gold_mysterious_weasel.sh
+        container: qc.doc_carmine_positive_heron
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.orange_patient_ibex.sh
-        container: qc.doc_peach_industrious_lionfish
+        - /usr/bin/env sh .sqa/script.apricot_insightful_goose.sh
+        container: qc.doc_thistle_reckless_pegasus
       github.com/grycap/apricotlab markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.clementine_bewildered_giraffe.sh
-        container: qc.doc_echelon_apathetic_moose
+        - /usr/bin/env sh .sqa/script.thunder_hardworking_ferret.sh
+        container: qc.doc_yellow_persistent_capybara
   QC.Lic:
     repos:
       github.com/grycap/apricotlab licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.papaya_loyal_roadrunner.sh
-        container: qc.lic_gunmetal_witty_okapi
+        - /usr/bin/env sh .sqa/script.butter_rugged_ocelot.sh
+        container: qc.lic_tundra_rational_chimpanzee
   QC.Met:
     repos:
       github.com/grycap/apricotlab validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.rose_protective_rabbit.sh
-        container: qc.met_cerise_restless_quail
+        - /usr/bin/env sh .sqa/script.peach_polite_marmoset.sh
+        container: qc.met_pearl_brave_kangaroo
   QC.Sec:
     repos:
       github.com/grycap/apricotlab bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.turquoise_adaptable_gull.sh
-        container: qc.sec_mist_impulsive_goose
+        - /usr/bin/env sh .sqa/script.sepia_reflective_octopus.sh
+        container: qc.sec_coffee_motivated_skunk
   QC.Sty:
     repos:
       github.com/grycap/apricotlab flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.alabaster_cranky_squid.sh
-        container: qc.sty_green_easygoing_barracuda
+        - /usr/bin/env sh .sqa/script.teal_unique_osprey.sh
+        container: qc.sty_forest_romantic_clownfish
       github.com/grycap/apricotlab hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.chartreuse_mature_boa.sh
-        container: qc.sty_grege_reliable_echidna
+        - /usr/bin/env sh .sqa/script.rose_open_meerkat.sh
+        container: qc.sty_umber_focused_wolf
       github.com/grycap/apricotlab jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.paprika_calm_caribou.sh
-        container: qc.sty_frost_mindful_lionfish
+        - /usr/bin/env sh .sqa/script.rust_zany_mongoose.sh
+        container: qc.sty_turmeric_restless_frog
       github.com/grycap/apricotlab pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goldenrod_delighted_hedgehog.sh
-        container: qc.sty_chestnut_positive_ostrich
+        - /usr/bin/env sh .sqa/script.thistle_mature_swan.sh
+        container: qc.sty_ivory_nervous_boar
   QC.Uni:
     repos:
       github.com/grycap/apricotlab pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.magenta_thankful_dolphin.sh
-        container: qc.uni_bronze_elated_grizzly
+        - /usr/bin/env sh .sqa/script.harlequin_proud_capybara.sh
+        container: qc.uni_walnut_decisive_crocodile
   QC.Ver:
     repos:
       github.com/grycap/apricotlab get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.storm_fierce_nymph.sh
-        container: qc.ver_lime_playful_rabbit
+        - /usr/bin/env sh .sqa/script.chestnut_quirky_tarantula.sh
+        container: qc.ver_raspberry_grumpy_pangolin
 timeout: 5400
