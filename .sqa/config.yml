@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.hunter_smart_walrus.sh
-        container: qc.acc_prussian_eccentric_buffalo
+        - /usr/bin/env sh .sqa/script.magenta_motivated_thrush.sh
+        container: qc.acc_ochre_friendly_wombat
   QC.Doc:
     repos:
       github.com/grycap/apricotlab find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gold_mysterious_weasel.sh
-        container: qc.doc_carmine_positive_heron
+        - /usr/bin/env sh .sqa/script.aqua_meticulous_cheetah.sh
+        container: qc.doc_umber_hopeful_tortoise
       github.com/grycap/apricotlab git:
         commands:
-        - /usr/bin/env sh .sqa/script.apricot_insightful_goose.sh
-        container: qc.doc_thistle_reckless_pegasus
+        - /usr/bin/env sh .sqa/script.cinnabar_forgiving_griffin.sh
+        container: qc.doc_mist_innocent_meerkat
       github.com/grycap/apricotlab markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.thunder_hardworking_ferret.sh
-        container: qc.doc_yellow_persistent_capybara
+        - /usr/bin/env sh .sqa/script.cayenne_polite_panther.sh
+        container: qc.doc_tundra_visionary_butterfly
   QC.Lic:
     repos:
       github.com/grycap/apricotlab licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.butter_rugged_ocelot.sh
-        container: qc.lic_tundra_rational_chimpanzee
+        - /usr/bin/env sh .sqa/script.ultramarine_sad_llama.sh
+        container: qc.lic_scarlet_rugged_armadillo
   QC.Met:
     repos:
       github.com/grycap/apricotlab validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.peach_polite_marmoset.sh
-        container: qc.met_pearl_brave_kangaroo
+        - /usr/bin/env sh .sqa/script.thistle_creative_dragon.sh
+        container: qc.met_currant_methodical_bison
   QC.Sec:
     repos:
       github.com/grycap/apricotlab bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.sepia_reflective_octopus.sh
-        container: qc.sec_coffee_motivated_skunk
+        - /usr/bin/env sh .sqa/script.yellow_inspired_newt.sh
+        container: qc.sec_sienna_spontaneous_chimpanzee
   QC.Sty:
     repos:
       github.com/grycap/apricotlab flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.teal_unique_osprey.sh
-        container: qc.sty_forest_romantic_clownfish
+        - /usr/bin/env sh .sqa/script.purple_ardent_eagle.sh
+        container: qc.sty_royal_agile_ferret
       github.com/grycap/apricotlab hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.rose_open_meerkat.sh
-        container: qc.sty_umber_focused_wolf
+        - /usr/bin/env sh .sqa/script.caramel_sarcastic_nymph.sh
+        container: qc.sty_brown_innocent_eagle
       github.com/grycap/apricotlab jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.rust_zany_mongoose.sh
-        container: qc.sty_turmeric_restless_frog
+        - /usr/bin/env sh .sqa/script.pumpkin_thankful_orca.sh
+        container: qc.sty_walnut_focused_hydra
       github.com/grycap/apricotlab pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thistle_mature_swan.sh
-        container: qc.sty_ivory_nervous_boar
+        - /usr/bin/env sh .sqa/script.powder_bright_cassowary.sh
+        container: qc.sty_espresso_content_armadillo
   QC.Uni:
     repos:
       github.com/grycap/apricotlab pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.harlequin_proud_capybara.sh
-        container: qc.uni_walnut_decisive_crocodile
+        - /usr/bin/env sh .sqa/script.snow_serene_emu.sh
+        container: qc.uni_jade_loyal_swan
   QC.Ver:
     repos:
       github.com/grycap/apricotlab get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chestnut_quirky_tarantula.sh
-        container: qc.ver_raspberry_grumpy_pangolin
+        - /usr/bin/env sh .sqa/script.prussian_philosophical_caiman.sh
+        container: qc.ver_cornflower_wise_leopard
 timeout: 5400
